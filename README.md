@@ -15,3 +15,7 @@
 ### Benchmark
 
 - go test -bench=.
+
+### Subtest
+
+- go test -run TestMultiply/2x1 -v
